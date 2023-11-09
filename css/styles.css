@@ -1,0 +1,81 @@
+
+body {
+    background-color: #1c1c1c; 
+    color: #fff; 
+
+
+}
+
+.eventos {
+    padding: 20px;
+    text-align: center;
+    border: 3px, solid, orangered;
+}
+
+.text-eventos{
+    color: #fff;
+    font-size: 24px;
+    font-family: monospace;
+    
+}
+.formulario {
+        max-width: 300px;
+        margin: 50px auto;  
+        padding: 30px; 
+        background-color:  rgba(0, 0, 0, 0.2);
+        border-radius: 10px; 
+        box-shadow: 0 0 10px #ff5722; 
+        animation-delay: 1.2s;
+  
+    
+}
+
+.formulario input[type="text"],
+.formulario input[type="date"],
+.formulario input[type="submit"] {
+
+    width: 250px;
+    display: block;
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 5px;
+    align-items: center;
+}
+
+.formulario input[type="submit"] {
+    background-color: #ff5722; 
+    color: #fff; 
+    cursor: pointer;
+}
+
+
+.listaEventos2 {
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+.listaEventos2 p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.evento{
+    max-width: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.diasFaltante{
+    color: #ff5722;
+}
+.eliminar {
+    background-color: #ff5722;
+}
+
+
